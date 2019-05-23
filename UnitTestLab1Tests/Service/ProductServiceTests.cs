@@ -27,7 +27,7 @@ namespace UnitTestLab1.Tests
             var expect = 135;
             _mock.SelectFruits().Returns(p => new List<Product>
             {
-                 new Product{Name="蘋果",Price=30},
+                new Product{Name="蘋果",Price=30},
                 new Product{Name="香蕉",Price=15},
                 new Product{Name="芭樂",Price=20},
             });
